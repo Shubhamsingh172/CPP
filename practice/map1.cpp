@@ -5,6 +5,8 @@ using namespace std;
 
 int main() {
     map<string,int>mp;
+
+    // insertion in map can be of two ways by using key and value and using insert({}) func
     mp["shubham"] = 1;
     mp["saurav"] = 2;
     
