@@ -9,15 +9,11 @@ void solve(string str, int idx)
     solve(str,idx + 1);
     cout << str[idx] << "";
 }
-void print(string str)
-{
-    solve(str, 0);
-}
 int main()
 {
     string input;
     cout << "Enter an input string : ";
     getline(cin, input);
-    print(input);
+    solve(input,0);
     cout << endl << endl;
 }
