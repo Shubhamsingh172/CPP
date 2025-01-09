@@ -15,8 +15,8 @@ int main()
     cout << "Enter number : ";
     cin >> n;
     cout << "Fibonacci series of " << n << " number" << endl;
-    for (int i = 0; i < n; i++)
-        cout << fibo(i) << " ";
+    for (int i = 0; i <= n; i++)
+        cout << "fibo(" << i << ") : " << fibo(i) << "\n";
     cout << endl;
     return 0;
 }
