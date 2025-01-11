@@ -4,12 +4,13 @@ using namespace std;
 
 class Solution
 {
-    public:
         void Sqroot(int num)
         {
             cout << "Square root of a number " << num << " is : " << int(sqrt(num)) << endl; 
             //for round to get an integer we typecast the result
         }
+        public:
+        friend int main();
 };
 int main()
 {
